@@ -35,6 +35,45 @@ Run the following command to install:
 | **tooltipFontFamily** | `string` | `sans-serif` | Font family of tooltip text. |
 | **onSelect** | `(provinces: number[]) => void` | `console.log` | Callback fn when provinces are selected. |
 
+## Provinces
+
+The list of provinces is separated by ID. After clicking on each province, the corresponding ID is returned.
+
+| Province name        | id |
+| -------------------- | -- |
+| آذربایجان شرقی       | 1  |
+| آذربایجان غربی       | 2  |
+| اردبیل               | 3  |
+| اصفهان               | 4  |
+| ایلام                | 5  |
+| بوشهر                | 6  |
+| تهران                | 7  |
+| چهار محال و بختیاری  | 8  |
+| خوزستان              | 10 |
+| زنجان                | 11 |
+| سمنان                | 12 |
+| سیستان و بلوچستان    | 13 |
+| فارس                 | 14 |
+| کرمان                | 15 |
+| کردستان              | 16 |
+| کرمانشاه             | 17 |
+| کهگیلویه و بویر احمد | 18 |
+| گیلان                | 19 |
+| لرستان               | 20 |
+| مازندران             | 21 |
+| مرکزی                | 22 |
+| هرمزگان              | 23 |
+| همدان                | 24 |
+| یزد                  | 25 |
+| قم                   | 26 |
+| گلستان               | 27 |
+| قزوین                | 28 |
+| خراسان جنوبی         | 29 |
+| خراسان رضوی          | 30 |
+| خراسان شمالی         | 31 |
+| البرز                | 32 |
+
+
 ## CSS classNames
 CSS classes based on the BEM naming convention:
 

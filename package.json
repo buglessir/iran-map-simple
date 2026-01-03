@@ -1,7 +1,7 @@
 {
   "name": "iran-map-simple",
   "author": "Mohammad Esmaeilzadeh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Iran map in SVG format for React JS applications.",
   "license": "MIT",
   "repository": {
