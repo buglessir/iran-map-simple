@@ -30,12 +30,13 @@ Run the following command to install:
 | **hoverColor** | `string` | `#C1C1C1` | Background color on hover. |
 | **selectedColor** | `string` | `#58D68D` | Background color for selected provinces. |
 | **tooltipBackground** | `string` | `#333333` | Tooltip background color. |
-| **tooltipColor** | `string` | `#000000` | Tooltip text color. |
-| **tooltipFontSize** | `number` | `14` | Font size of tooltip text. (px) |
-| **tooltipFontFamily** | `string` | `sans-serif` | Font family tooltip text. |
-| **onSelect** | `(provinces: number[]) => void` | `console.log` | Callback when provinces are selected. |
+| **tooltipColor** | `string` | `#FFFFFF` | Tooltip text color. |
+| **tooltipFontSize** | `number` | `12` | Font size of tooltip text. (px) |
+| **tooltipFontFamily** | `string` | `sans-serif` | Font family of tooltip text. |
+| **onSelect** | `(provinces: number[]) => void` | `console.log` | Callback fn when provinces are selected. |
 
 ## CSS classNames
+CSS classes based on the BEM naming convention:
 
 - **Wrapper:** `iran-map-simple`
 - **SVG:** `iran-map-simple__svg`
